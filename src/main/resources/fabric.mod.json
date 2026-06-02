@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "dripfast",
+  "version": "1.0.0",
+  "name": "DripFast",
+  "description": "Usuwa cooldown przy stawianiu dripstone na trapdoorze",
+  "authors": ["TwojeImie"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.dripfast.DripFastMod"]
+  },
+  "mixins": ["dripfast.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}

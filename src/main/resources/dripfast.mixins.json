@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "pl.dripfast.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "RemoveRightClickCooldownMixin",
+    "InteractionManagerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
